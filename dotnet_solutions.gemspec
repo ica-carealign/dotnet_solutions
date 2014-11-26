@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'dotnet_solutions/version'
+require 'dotnet/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "dotnet_solutions"
-  spec.version       = DotNetSolutions::VERSION
+  spec.version       = DotNet::VERSION
   spec.authors       = ["The Tribe"]
   spec.email         = ["jbatte@gmail.com"]
   spec.summary       = %q{Provides access to .NET-specific file-based tasks.}
